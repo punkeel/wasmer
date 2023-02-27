@@ -4926,7 +4926,6 @@ dependencies = [
  "wasmer-inline-c",
  "wasmer-middlewares",
  "wasmer-types",
- "wasmer-vfs",
  "wasmer-wasi",
  "webc",
 ]
@@ -5335,7 +5334,6 @@ dependencies = [
  "lazy_static",
  "libc",
  "pin-project-lite",
- "serde",
  "slab",
  "thiserror",
  "tokio",
@@ -5757,9 +5755,9 @@ dependencies = [
 
 [[package]]
 name = "webc"
-version = "5.0.0-rc.1"
+version = "5.0.0-rc.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a4f6a21de5a426f0ee97316b4f363ca28524489fd065ea437011a5f70f70e34f"
+checksum = "43ce94053d470a17f057637d2006615b102a5816ce5863e20f47b929bb887dd6"
 dependencies = [
  "anyhow",
  "base64 0.21.0",

@@ -4870,6 +4870,7 @@ dependencies = [
  "wasmer-inline-c",
  "wasmer-middlewares",
  "wasmer-types",
+ "wasmer-vfs",
  "wasmer-wasi",
  "webc",
 ]
